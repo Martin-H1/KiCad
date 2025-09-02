@@ -5584,15 +5584,15 @@
     (property "Value" "LM7805_TO220" (at 229.87 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 229.87 102.235 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" (at 229.87 102.235 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" (at 229.87 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a6c88acd-a8f9-4481-9440-b9ac0d0fd816))
-    (pin "2" (uuid 9a95a3f4-d8ba-4ead-8cbc-983d0b4d9d8f))
-    (pin "3" (uuid 87c3827e-b03b-4f75-9343-366abb0c39b2))
+    (pin "1" (uuid d54ea862-bb31-46af-9b60-0d95fde16cd6))
+    (pin "2" (uuid 151715c3-745d-4119-8489-80d3fe89851b))
+    (pin "3" (uuid b5bf8f53-0ca6-446b-b429-c1bc44c8ab87))
     (instances
       (project "Mench Reloaded"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
