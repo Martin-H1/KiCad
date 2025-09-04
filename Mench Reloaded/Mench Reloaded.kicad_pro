@@ -504,6 +504,10 @@
     [
       "65831a0a-ff7e-4102-95d5-98ddaae72b40",
       "RAM, EEPROM, and headers"
+    ],
+    [
+      "beeb26c7-6cc0-46cc-a13d-dae16fc6429a",
+      "65c22 IO"
     ]
   ],
   "text_variables": {}
