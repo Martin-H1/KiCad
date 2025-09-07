@@ -1398,7 +1398,7 @@
           (reference "J10") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "J10") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1432,7 +1432,7 @@
           (reference "D10") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "D10") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1465,7 +1465,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1498,7 +1498,7 @@
           (reference "#PWR037") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1530,7 +1530,7 @@
           (reference "C11") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "C15") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
           (reference "#PWR038") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1609,7 +1609,7 @@
           (reference "J11") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "J11") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1618,7 +1618,7 @@
   (symbol (lib_id "power:GND") (at 66.04 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91aa111d-1c59-4320-a69c-12d6d6fadf01)
-    (property "Reference" "#PWR037" (at 66.04 44.45 0)
+    (property "Reference" "#PWR038" (at 66.04 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 43.18 0)
@@ -1634,7 +1634,7 @@
     (instances
       (project "Mench Reloaded"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1667,7 +1667,7 @@
           (reference "#PWR041") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1777,7 +1777,7 @@
           (reference "J9") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1810,7 +1810,7 @@
           (reference "#PWR040") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1841,7 +1841,7 @@
           (reference "#PWR030") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )

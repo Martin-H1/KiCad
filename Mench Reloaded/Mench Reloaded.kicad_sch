@@ -2737,7 +2737,7 @@
   (symbol (lib_id "Device:LED_Small") (at 266.7 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d9c416a-ea80-4d74-a449-42f7b01c825b)
-    (property "Reference" "D2" (at 266.7635 85.09 0)
+    (property "Reference" "D1" (at 266.7635 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "green" (at 266.7635 87.63 0)
@@ -2754,7 +2754,7 @@
     (instances
       (project "Mench Reloaded"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2845,7 +2845,7 @@
     (property "Value" "W65C265SxQ" (at 150.5459 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_QFP:PQFP-100_14x20mm_P0.65mm" (at 148.59 7.62 0)
+    (property "Footprint" "Mench Reloaded_footprints:PQFP-100_14x20mm_P0.65mm_HandSolder" (at 148.59 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.westerndesigncenter.com/wdc/documentation/w65c265s.pdf" (at 148.59 10.16 0)
@@ -3143,7 +3143,7 @@
   (symbol (lib_id "Device:R_US") (at 260.35 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65203740-c65f-4c6f-8a19-0e107795cc6a)
-    (property "Reference" "R6" (at 260.35 85.09 90)
+    (property "Reference" "R5" (at 260.35 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K" (at 260.35 87.63 90)
@@ -3160,7 +3160,7 @@
     (instances
       (project "Mench Reloaded"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3169,7 +3169,7 @@
   (symbol (lib_id "Device:R_US") (at 260.35 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70c5c28b-ce85-4467-bed5-bf31cf66c2f9)
-    (property "Reference" "R9" (at 260.35 96.52 90)
+    (property "Reference" "R6" (at 260.35 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K" (at 260.35 99.06 90)
@@ -3186,7 +3186,7 @@
     (instances
       (project "Mench Reloaded"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3404,7 +3404,7 @@
   (symbol (lib_id "Device:LED_Small") (at 266.7 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3270514-4bf2-4834-be2d-202885ba7fd5)
-    (property "Reference" "D5" (at 266.7635 96.52 0)
+    (property "Reference" "D2" (at 266.7635 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "green" (at 266.7635 99.06 0)
@@ -3421,7 +3421,7 @@
     (instances
       (project "Mench Reloaded"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
