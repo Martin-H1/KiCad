@@ -3466,6 +3466,12 @@
 		(uuid "2bdb7398-b028-40d3-ae73-1179cb3f81c8")
 	)
 	(junction
+		(at 31.75 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e32d668-3107-4498-bb59-907ba04f86e6")
+	)
+	(junction
 		(at 31.75 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4319,6 +4325,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 19.05) (xy 31.75 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281cd033-a4db-48ec-9a9f-7b0e0153bfd7")
+	)
+	(wire
+		(pts
 			(xy 66.04 67.31) (xy 66.04 68.58)
 		)
 		(stroke
@@ -4687,16 +4703,6 @@
 		)
 		(uuid "5a910ff7-34b5-41b7-bae9-46995e6e2370")
 	)
-	(wire
-		(pts
-			(xy 31.75 20.32) (xy 31.75 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c0c5114-b973-4b2e-b179-99facaaf8364")
-	)
 	(bus
 		(pts
 			(xy 246.38 88.9) (xy 246.38 100.33)
@@ -4946,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "7dd04b98-37d2-4400-8555-4bc91cc5e193")
+	)
+	(wire
+		(pts
+			(xy 31.75 19.05) (xy 31.75 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d3232c-dfc8-49c8-aceb-f356b54f15db")
 	)
 	(bus
 		(pts
@@ -7394,16 +7410,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 31.75 20.32 0)
+		(at 31.75 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18171119-63e4-4fbb-8a55-cf5fcfd9b920")
 		(property "Reference" "#PWR01"
-			(at 31.75 24.13 0)
+			(at 31.75 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7427,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 31.75 15.24 0)
+			(at 31.75 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 20.32 0)
+			(at 31.75 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +7444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 20.32 0)
+			(at 31.75 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 20.32 0)
+			(at 31.75 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7558,7 @@
 				)
 			)
 		)
-		(property "Value" "green"
+		(property "Value" "LED"
 			(at 266.7635 87.63 0)
 			(effects
 				(font
@@ -8359,6 +8374,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 44.45 22.86 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e24dbe-fec4-458a-90c6-942677bbff49")
+		(property "Reference" "R1"
+			(at 50.8 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3K"
+			(at 48.26 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 45.466 22.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d521ce7-0380-4189-8e8c-375deb44d85f")
+		)
+		(pin "2"
+			(uuid "a7aca4c8-e16d-48b3-b657-f917382af25a")
+		)
+		(instances
+			(project "Mench Reloaded"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 80.01 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8367,7 +8450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5a3934-a114-4ea3-a848-2a59d51b2936")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 82.55 33.02 0)
 			(effects
 				(font
@@ -8420,7 +8503,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8570,7 +8653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eaa0d38-da60-4562-891c-51eb0312a240")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 88.9 31.75 90)
 			(effects
 				(font
@@ -8621,7 +8704,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8637,7 +8720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65203740-c65f-4c6f-8a19-0e107795cc6a")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 260.35 85.09 90)
 			(effects
 				(font
@@ -8688,7 +8771,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8704,7 +8787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70c5c28b-ce85-4467-bed5-bf31cf66c2f9")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 260.35 96.52 90)
 			(effects
 				(font
@@ -8755,7 +8838,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8909,7 +8992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f4a0142-b1c7-42ac-aacf-1df1d03017b7")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 87.63 54.61 90)
 			(effects
 				(font
@@ -8960,7 +9043,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9317,7 +9400,7 @@
 				)
 			)
 		)
-		(property "Value" "green"
+		(property "Value" "LED"
 			(at 266.7635 99.06 0)
 			(effects
 				(font
@@ -9575,7 +9658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb961536-5aba-41b3-85b1-0a204ab08fc9")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 82.55 55.88 0)
 			(effects
 				(font
@@ -9628,7 +9711,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)

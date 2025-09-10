@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -573,10 +573,6 @@
       },
       {
         "netclass": "Signals",
-        "pattern": "A5B"
-      },
-      {
-        "netclass": "Signals",
         "pattern": "MEMWEB"
       },
       {
@@ -626,6 +622,26 @@
       {
         "netclass": "Signals",
         "pattern": "TXD*"
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "FA15"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(U4-VI)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J11-Pin_3)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(J10-Pin_3)"
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "MEMCS*"
       }
     ]
   },

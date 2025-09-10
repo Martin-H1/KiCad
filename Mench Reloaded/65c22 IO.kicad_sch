@@ -3865,7 +3865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1338eec9-af9c-4a65-bb38-a1b05ba29abb")
-		(property "Reference" "J11"
+		(property "Reference" "J13"
 			(at 119.38 45.72 0)
 			(effects
 				(font
@@ -3958,7 +3958,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "J11")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a85edc9-98af-4ada-89cc-f65566cd7006")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 102.87 63.5 0)
 			(effects
 				(font
@@ -4103,7 +4103,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4119,7 +4119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5db701f3-7288-4faf-a504-7009d9bef372")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 80.01 124.46 0)
 			(effects
 				(font
@@ -4174,7 +4174,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f4eb67d-41bd-4382-a54d-76d173aaae91")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 102.87 45.72 0)
 			(effects
 				(font
@@ -4314,7 +4314,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4330,7 +4330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bb55a94-0de5-440d-81e8-0600039d670a")
-		(property "Reference" "J12"
+		(property "Reference" "J14"
 			(at 119.38 78.74 0)
 			(effects
 				(font
@@ -4423,7 +4423,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "J12")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91aa111d-1c59-4320-a69c-12d6d6fadf01")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 66.04 44.45 0)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4504,7 +4504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "962514a3-1997-4181-992a-da6a0ae5e92c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 102.87 96.52 0)
 			(effects
 				(font
@@ -4559,7 +4559,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4764,7 +4764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca2a9cd9-a2a0-4da6-877a-c0b017ad7f55")
-		(property "Reference" "J10"
+		(property "Reference" "J12"
 			(at 39.37 45.72 0)
 			(effects
 				(font
@@ -4773,7 +4773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Int Sel 1"
+		(property "Value" "Int Sel"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -4826,7 +4826,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "J10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb91620f-84f2-425e-a4ca-fe883e4ff064")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 102.87 78.74 0)
 			(effects
 				(font
@@ -4897,7 +4897,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dea8cd23-2f3b-4728-b23f-160ac64582a2")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 66.04 36.83 0)
 			(effects
 				(font
@@ -4962,7 +4962,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
