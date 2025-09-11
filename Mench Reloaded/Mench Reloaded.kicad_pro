@@ -642,6 +642,22 @@
       {
         "netclass": "Signals",
         "pattern": "MEMCS*"
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "Net-(U1-FCLK)"
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "Net-(U1-CLK)"
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "TG*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },

@@ -13360,7 +13360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "021b356f-913c-41a6-a011-2b762504555c")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 105.41 29.21 90)
 			(effects
 				(font
@@ -13411,7 +13411,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/65831a0a-ff7e-4102-95d5-98ddaae72b40"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -14297,7 +14297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2912d2f2-512d-46ee-96ff-1c88dbd82e98")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 105.41 22.7965 0)
 			(effects
 				(font
@@ -14348,7 +14348,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/65831a0a-ff7e-4102-95d5-98ddaae72b40"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -14502,7 +14502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34f788ce-d696-495f-b0f8-b3afc1000479")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 237.49 148.9075 90)
 			(effects
 				(font
@@ -14555,7 +14555,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/65831a0a-ff7e-4102-95d5-98ddaae72b40"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14700,7 +14700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45a0b473-83fd-499b-9aae-dd300eb826a4")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 236.22 139.7 0)
 			(effects
 				(font
@@ -14753,7 +14753,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/65831a0a-ff7e-4102-95d5-98ddaae72b40"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14835,7 +14835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5394dd01-36c0-499b-b1e0-f053023c6b23")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 100.33 49.53 90)
 			(effects
 				(font
@@ -14886,7 +14886,7 @@
 		(instances
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/65831a0a-ff7e-4102-95d5-98ddaae72b40"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)

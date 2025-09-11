@@ -3975,7 +3975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "381662e2-adb0-4726-a6cd-986983c4360c")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 52.3875 40.64 0)
 			(effects
 				(font
@@ -4032,7 +4032,7 @@
 			)
 			(project "Mench Reloaded"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/beeb26c7-6cc0-46cc-a13d-dae16fc6429a"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
