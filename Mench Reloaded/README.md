@@ -4,13 +4,13 @@ A single board computer with specs similar or better than the Mench computer fro
 
 Features Include
 ======
-W65C265 Microcontroller featuring the W65C816 core microprocessor
-1 W65C22 Versatile Interface Adapters
-128KN or 256KB SRAM
-32K EEPROM
-Expansion headers that match the W65C265SXB.
-FTDI for serial interface and optional power.
-Optional battery power.
+* W65C265 Microcontroller featuring the W65C816 core microprocessor
+* 1 W65C22 Versatile Interface Adapters
+* 128KB or 256KB SRAM
+* 32K EEPROM
+* Expansion headers that match the W65C265SXB.
+* FTDI for serial interface and optional power.
+* Optional battery power.
 
 Prerequisites
 ======
