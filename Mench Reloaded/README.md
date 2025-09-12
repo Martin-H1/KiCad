@@ -5,17 +5,22 @@ A single board computer with specs similar or better than the Mench computer fro
 Features Include
 ======
 W65C265 Microcontroller featuring the W65C816 core microprocessor
-2 W65C22 Versatile Interface Adapters
-32KB SRAM
-Flash ROM for up to 128KB ROM.
+1 W65C22 Versatile Interface Adapters
+128KN or 256KB SRAM
+32K EEPROM
 Expansion headers that match the W65C265SXB.
-USB C for power and terminal interface.
+FTDI for serial interface and optional power.
+Optional battery power.
 
 Prerequisites
 ======
-* KiCad 7.0
+* KiCad 9.0
 * Git to fetch these files.
 
 Notes
 ======
-See: https://www.westerndesigncenter.com/wdc/Mensch_Computer.php
+Documentation for the w65c265 and Mench computer are available on the WDC website:
+https://www.westerndesigncenter.com/wdc/documentation/w65c265s.pdf
+https://www.westerndesigncenter.com/wdc/Mensch_Computer.php
+file:///C:/Users/mheer/Downloads/MenschComputerSchematic.pdf
+https://www.westerndesigncenter.com/wdc/Schematics/W65C265SXB.pdf
