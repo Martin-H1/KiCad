@@ -14986,7 +14986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
+		(property "Footprint" "Socket:DIP-28_W15.24mm_LowProfileZifSocket"
 			(at 175.26 48.26 0)
 			(effects
 				(font
