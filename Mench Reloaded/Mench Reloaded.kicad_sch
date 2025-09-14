@@ -7014,28 +7014,6 @@
 			)
 		)
 	)
-	(global_label "BA"
-		(shape input)
-		(at 130.81 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b433d012-6cd1-4d39-b25a-be106b4671e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4505 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PIRS1"
 		(shape input)
 		(at 127 91.44 180)
