@@ -195,7 +195,7 @@
 	(net 77 "PIRS0")
 	(net 78 "PIRS1")
 	(net 79 "PIRS2")
-	(net 80 "BA")
+	(net 80 "unconnected-(U1-BA{slash}~{DOD}-Pad39)")
 	(net 81 "BE")
 	(net 82 "RUN")
 	(net 83 "TG0")
@@ -290,7 +290,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -490,7 +490,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -691,7 +691,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -955,7 +955,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -963,6 +963,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eecd74ec-d352-41af-9433-65e3f768c7fe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1176,7 +1189,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1184,6 +1197,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "439329d4-624a-4caa-a923-d4f8662294d2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1398,7 +1424,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2199,7 +2225,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2399,7 +2425,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2600,7 +2626,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-252"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2880,7 +2906,7 @@
 			(net 117 "Net-(J11-Pin_3)")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "7a1d39be-f501-4058-a89d-3cda2eb08706")
+			(uuid "41c9cffc-2638-4965-8f47-a3fdf1ec9e12")
 		)
 		(pad "3" smd roundrect
 			(at -5.04 2.28 270)
@@ -2945,7 +2971,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2953,6 +2979,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3181f264-9e2b-4162-9f5f-d7df2149e7fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3166,7 +3205,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3572,7 +3611,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3772,7 +3811,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3971,7 +4010,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4171,7 +4210,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4950,7 +4989,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5151,7 +5190,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5351,7 +5390,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Barrel Jack with an internal switch"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5734,7 +5773,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6009,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6017,6 +6056,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8726ed1-8825-40b5-a247-bfab22dfe66d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7021,9 +7073,9 @@
 			(size 0.4 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 80 "BA")
+			(net 80 "unconnected-(U1-BA{slash}~{DOD}-Pad39)")
 			(pinfunction "BA/~{DOD}")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "4ee77939-ef2b-4bd2-829b-aa770b34ada9")
 		)
 		(pad "40" smd roundrect
@@ -7689,7 +7741,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8677,7 +8729,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9129,7 +9181,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9137,6 +9189,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92576f8f-3d26-4bdd-8574-bec50118c6c2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9447,7 +9512,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9715,7 +9780,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d5c0a37c-28ca-49fb-9ea6-b7ca912a9a3b")
+			(uuid "0d6b4ba3-6634-4910-bd52-578033a4673b")
 		)
 		(pad "2" thru_hole circle
 			(at 0 4.5)
@@ -9737,7 +9802,7 @@
 			(net 11 "RESB")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e5484eda-bc58-4259-a1c2-335fbc013451")
+			(uuid "4438eda3-35b8-496f-9a29-e0e251880b55")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H5mm.step"
@@ -9889,7 +9954,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10089,7 +10154,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -10288,7 +10353,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10504,7 +10569,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10865,7 +10930,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12318,7 +12383,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12519,7 +12584,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12719,7 +12784,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13124,7 +13189,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13484,7 +13549,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13713,7 +13778,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13913,7 +13978,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -14113,7 +14178,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5 resistor network, star topology, bussed resistors, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14401,7 +14466,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14741,7 +14806,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -14942,7 +15007,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15883,7 +15948,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16083,7 +16148,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16283,7 +16348,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16547,7 +16612,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16908,7 +16973,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18473,7 +18538,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18670,7 +18735,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Paged Parallel EEPROM 256Kb (32K x 8), DIP-28/SOIC-28"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19157,7 +19222,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "quad 2-input NAND gate"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19170,7 +19235,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14*")
-		(path "/65831a0a-ff7e-4102-95d5-98ddaae72b40/223096b0-dc4a-4156-b9a3-23c190c6cc0b")
+		(path "/65831a0a-ff7e-4102-95d5-98ddaae72b40/a271e7c7-0c9b-4a44-a00b-909eff8bf3f1")
 		(sheetname "/RAM, EEPROM, and headers/")
 		(sheetfile "ram_and_eeprom_sch.kicad_sch")
 		(attr smd)
@@ -19466,7 +19531,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 130 "unconnected-(U5-Pad11)")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "251ced18-d085-4a86-b586-9e3fd7171906")
 		)
 		(pad "12" smd roundrect
@@ -19550,7 +19615,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19815,7 +19880,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20015,7 +20080,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
