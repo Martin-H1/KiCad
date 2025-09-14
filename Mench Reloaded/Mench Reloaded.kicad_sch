@@ -3621,6 +3621,10 @@
 		(color 0 0 0 0)
 		(uuid "ff035ed6-2d3b-4a32-b11f-559445dd1b50")
 	)
+	(no_connect
+		(at 130.81 71.12)
+		(uuid "f669d815-1419-4bdf-9af6-3794f3eba0b9")
+	)
 	(bus_entry
 		(at 185.42 96.52)
 		(size -2.54 2.54)
