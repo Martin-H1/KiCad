@@ -9,6 +9,7 @@ Features Include
 * 128KB or 256KB SRAM
 * 32K EEPROM
 * Expansion headers that match the W65C265SXB.
+* 65c22 GPIO headers that match the SBC-2 by Daryl Rictor.
 * FTDI for serial interface and optional power.
 * Optional battery power.
 
@@ -19,8 +20,7 @@ Prerequisites
 
 Notes
 ======
-Documentation for the w65c265 and Mench computer are available on the WDC website:
-https://www.westerndesigncenter.com/wdc/documentation/w65c265s.pdf
-https://www.westerndesigncenter.com/wdc/Mensch_Computer.php
-file:///C:/Users/mheer/Downloads/MenschComputerSchematic.pdf
-https://www.westerndesigncenter.com/wdc/Schematics/W65C265SXB.pdf
+* Documentation for the w65c265 and Mench computer are available on the WDC website:
+* https://www.westerndesigncenter.com/wdc/documentation/w65c265s.pdf
+* https://www.westerndesigncenter.com/wdc/Schematics/W65C265SXB.pdf
+* https://www.westerndesigncenter.com/wdc/Mensch_Computer.php
