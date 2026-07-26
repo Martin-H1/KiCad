@@ -48,6 +48,90 @@
 		)
 	)
 	(sheet
+		(at 3.81 688.34)
+		(size 290.83 205.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "484a2b1a-2f0b-4860-b5b9-2f2af10857fa")
+		(property "Sheetname" "Sequencer"
+			(at 3.81 687.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sequencer.kicad_sch"
+			(at 3.81 894.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RiSC-16"
+				(path "/09ce4153-429f-4803-b069-3af485a81dd6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 918.21)
+		(size 295.91 195.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf059c65-0001-4da1-977b-c7ca81f82c3a")
+		(property "Sheetname" "Control Unit"
+			(at 5.08 917.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 5.08 1114.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RiSC-16"
+				(path "/09ce4153-429f-4803-b069-3af485a81dd6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 5.08 459.74)
 		(size 292.1 190.5)
 		(exclude_from_sim no)
