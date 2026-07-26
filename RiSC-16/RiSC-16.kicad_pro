@@ -422,12 +422,16 @@
       "Register File"
     ],
     [
-      "484a2b1a-2f0b-4860-b5b9-2f2af10857fa",
-      "Sequencer"
+      "fa2f7088-dabe-4df0-996a-fa944d833eff",
+      "Program Counter"
     ],
     [
       "bf059c65-0001-4da1-977b-c7ca81f82c3a",
       "Control Unit"
+    ],
+    [
+      "484a2b1a-2f0b-4860-b5b9-2f2af10857fa",
+      "Sequencer"
     ]
   ],
   "text_variables": {}

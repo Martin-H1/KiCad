@@ -84,7 +84,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
@@ -169,6 +169,48 @@
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 6.35 1140.46)
+		(size 295.91 182.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa2f7088-dabe-4df0-996a-fa944d833eff")
+		(property "Sheetname" "Program Counter"
+			(at 6.35 1139.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "progcont.kicad_sch"
+			(at 6.35 1323.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RiSC-16"
+				(path "/09ce4153-429f-4803-b069-3af485a81dd6"
+					(page "4")
 				)
 			)
 		)
