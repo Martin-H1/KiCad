@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 6.35 1332.23)
+		(size 297.18 179.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a113de7-a305-4b13-86ca-d80a92ced471")
+		(property "Sheetname" "Noodling Sheet"
+			(at 6.35 1331.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "noodling.kicad_sch"
+			(at 6.35 1511.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RiSC-16"
+				(path "/09ce4153-429f-4803-b069-3af485a81dd6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 3.81 688.34)
 		(size 290.83 205.74)
 		(exclude_from_sim no)
@@ -84,7 +126,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
