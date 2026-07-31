@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "13fbf43c-26a0-4ef0-bac8-c4e84e3a9419")
-		(property "Sheetname" "ALU Slice"
+		(property "Sheetname" "Register File and ALU"
 			(at 5.08 226.6184 0)
 			(effects
 				(font
@@ -189,7 +189,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d0ec361b-fb15-41d2-9c14-09e66b7972d2")
-		(property "Sheetname" "Register File"
+		(property "Sheetname" "EPROM and RAM"
 			(at 5.08 459.0284 0)
 			(effects
 				(font
@@ -231,7 +231,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fa2f7088-dabe-4df0-996a-fa944d833eff")
-		(property "Sheetname" "Program Counter"
+		(property "Sheetname" "Instruction Register"
 			(at 6.35 1139.7484 0)
 			(effects
 				(font

@@ -628,15 +628,15 @@
     ],
     [
       "13fbf43c-26a0-4ef0-bac8-c4e84e3a9419",
-      "ALU Slice"
+      "Register File and ALU"
     ],
     [
       "d0ec361b-fb15-41d2-9c14-09e66b7972d2",
-      "Register File"
+      "EPROM and RAM"
     ],
     [
       "fa2f7088-dabe-4df0-996a-fa944d833eff",
-      "Program Counter"
+      "Instruction Register"
     ],
     [
       "bf059c65-0001-4da1-977b-c7ca81f82c3a",
