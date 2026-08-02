@@ -543,7 +543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "530bbb94-ac21-4532-86db-340ec4fcc8d5")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 266.7 59.6899 0)
 			(effects
 				(font
@@ -597,7 +597,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/bf059c65-0001-4da1-977b-c7ca81f82c3a"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -613,7 +613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61744f7e-53df-4805-9c65-312fa23be2f1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR051"
 			(at 264.16 76.2 0)
 			(effects
 				(font
@@ -663,7 +663,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/bf059c65-0001-4da1-977b-c7ca81f82c3a"
-					(reference "#PWR016")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -679,7 +679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e05224-dafa-45f0-b665-249d596ab627")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR050"
 			(at 264.16 62.23 0)
 			(effects
 				(font
@@ -729,7 +729,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/bf059c65-0001-4da1-977b-c7ca81f82c3a"
-					(reference "#PWR015")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

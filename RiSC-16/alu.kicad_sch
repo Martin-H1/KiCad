@@ -9960,7 +9960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1daa60c0-3c1c-48a8-a675-621235d97d55")
-		(property "Reference" "U36"
+		(property "Reference" "U6"
 			(at 142.24 115.4998 90)
 			(effects
 				(font
@@ -10090,7 +10090,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "U36")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -10242,7 +10242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ef05f3-dbd6-417e-83c6-a9b5e368fe58")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR017"
 			(at 262.89 121.92 0)
 			(effects
 				(font
@@ -10293,7 +10293,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "#PWR074")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10726,7 +10726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5db44c86-1700-4629-98de-5cd1c52ac94e")
-		(property "Reference" "C23"
+		(property "Reference" "C7"
 			(at 97.79 175.3869 0)
 			(effects
 				(font
@@ -10780,7 +10780,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "C23")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10867,7 +10867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "718424c7-85b0-40fe-b687-d4909c9d7a8a")
-		(property "Reference" "U37"
+		(property "Reference" "U7"
 			(at 205.74 115.4998 90)
 			(effects
 				(font
@@ -10997,7 +10997,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "U37")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -11013,7 +11013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "753a998c-da62-4543-822a-426624882e36")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR016"
 			(at 218.44 128.27 0)
 			(effects
 				(font
@@ -11063,7 +11063,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "#PWR073")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11146,7 +11146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "856c2c78-cc1f-4cc3-99d3-e8710ad92028")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR019"
 			(at 20.32 185.42 0)
 			(effects
 				(font
@@ -11196,7 +11196,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "#PWR076")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11279,7 +11279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9799cf96-2c9b-4dd9-be2a-0b2e60e8b2a5")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR014"
 			(at 154.94 128.27 0)
 			(effects
 				(font
@@ -11329,7 +11329,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "#PWR071")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11345,7 +11345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a008a35b-1ff4-4d16-b6a0-00288d77e39e")
-		(property "Reference" "C22"
+		(property "Reference" "C6"
 			(at 85.09 175.3869 0)
 			(effects
 				(font
@@ -11399,7 +11399,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "C22")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11415,7 +11415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0369db4-c991-4163-9e67-e1279cf6cd3d")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR015"
 			(at 199.39 121.92 0)
 			(effects
 				(font
@@ -11466,7 +11466,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "#PWR072")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11617,7 +11617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6251ad-caf5-457f-8bcb-13bec6ea524d")
-		(property "Reference" "U38"
+		(property "Reference" "U8"
 			(at 269.24 115.4998 90)
 			(effects
 				(font
@@ -11747,7 +11747,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "U38")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -11829,7 +11829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf214d9f-60a1-4fcf-857a-a002e1330756")
-		(property "Reference" "C24"
+		(property "Reference" "C8"
 			(at 110.49 175.3869 0)
 			(effects
 				(font
@@ -11883,7 +11883,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "C24")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12443,7 +12443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e580120f-b90c-49b5-b712-5bd3afdbf4ee")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR018"
 			(at 20.32 177.8 0)
 			(effects
 				(font
@@ -12493,7 +12493,7 @@
 		(instances
 			(project "RiSC-16"
 				(path "/09ce4153-429f-4803-b069-3af485a81dd6/13fbf43c-26a0-4ef0-bac8-c4e84e3a9419"
-					(reference "#PWR075")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
